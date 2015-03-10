@@ -10,5 +10,9 @@ public class Porte {
 		parking=p;
 	}
 	
+	public void addPorte(Porte p)
+	{
+		lesPortes.put(p.getNomPorte(), p);
+	}
 	// ajouter à un hall
 }
