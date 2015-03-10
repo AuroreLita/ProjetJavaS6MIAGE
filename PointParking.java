@@ -17,7 +17,6 @@ public class PointParking {
 	{
 		return nomParking;
 	}
-	// ajouter une zone
-	
+
 	// ajouter une porte
 }
