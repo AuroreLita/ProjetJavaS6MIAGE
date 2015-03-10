@@ -11,4 +11,8 @@ public class Hall {
 	}
 	
 	// ajouter une porte
+	public void addPorte(Porte p)
+	{
+		lesPortes.put(p.getNomPorte(), p);
+	}
 }
