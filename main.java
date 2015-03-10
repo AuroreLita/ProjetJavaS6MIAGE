@@ -59,7 +59,26 @@ public class main {
 		//Porte p40 = new Porte("40");
 		//Porte p41 = new Porte("41");
 		//Porte p42 = new Porte("42");
-		
+		/* Création des hall */
+		Hall h1 = new Hall(1);
+		Hall h2 = new Hall(2);
+		Hall h3 = new Hall(3);
+		/* Ajout des portes aux halls */
+		h1.addPorte(p10A);
+		h1.addPorte(p10B);
+		h1.addPorte(p10C);
+		h2.addPorte(p20);
+		h2.addPorte(p21);
+		h2.addPorte(p22);
+		h2.addPorte(p23);
+		h2.addPorte(p24);
+		h3.addPorte(p30);
+		h3.addPorte(p31);
+		h3.addPorte(p32);
+		h3.addPorte(p33);
+		//h4.addPorte(p40);
+		//h4.addPorte(p41);
+		//h4.addPorte(p42);
 		
 	}
 
